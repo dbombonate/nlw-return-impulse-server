@@ -16,7 +16,7 @@ export class SubmitFeedbackUseCase {
 
   async execute (request: SubmitFeedbackUseCaseRequest) {
     const { type, comment, screenshot } = request
-    if (screenshot && !screenshot.startsWith('data:image/png:base64')) {
+    if (screenshot && !screenshot.startsWith('data:image/png:base64,')) {
       throw new Error('Screenshot invalid format')
     }
 
@@ -40,7 +40,7 @@ export class SubmitFeedbackUseCase {
         '<div style="font-family: sans-serif; font-size: 16px; color: #111;">',
         `<p>Tipo de feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
-        `<p>Comentário: ${screenshot}</p>`,
+        `<p>Tela capturada: ${screenshot}</p>`,
         '</div>'
       ].join('')
     })
