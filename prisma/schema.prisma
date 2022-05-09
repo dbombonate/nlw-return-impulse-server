@@ -15,7 +15,7 @@ model Feedback {
 
   type       String
   comment    String
-  screenshot String? // ? Campo opcional = nullable
+  screenshot String? @db.LongText // ? Campo opcional = nullable
 
   @@map("feedbacks")
 }
