@@ -1,6 +1,6 @@
 # NLW Return Server (Backend)
 
-## Table of Contents
+## Conteúdo
 
 - [Sobre](#about)
 - [Para usar esse projeto](#getting_started)
@@ -19,7 +19,7 @@ Nesse projeto, foi utilizado NodeJS, Typescript, Express, Prisma e MySQL. També
 
 ## Para usar esse projeto <a name = "getting_started"></a>
 
-As instruções abaixo vão te ajudar a fazer uma cópia e rodar esse projeto em seu próprio PC para desenvolvimento ou testes. Veja [deployment](#deployment) para verificar como montar este projeto em ambientes de produção.
+As instruções abaixo vão te ajudar a fazer uma cópia e rodar esse projeto em seu próprio PC para desenvolvimento ou testes.
 
 ### Pré requisitos
 
