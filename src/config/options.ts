@@ -1,4 +1,4 @@
 export const corsOptions = {
-  origin: 'https://nlw-return-impulse-web-alpha-six.vercel.app',
+  origin: process.env.CORS_URL,
   optionsSuccessStatus: 200
 }
