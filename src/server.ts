@@ -17,4 +17,5 @@ app.use((error: Error, req: Request, res: Response, next: NextFunction) => {
 
 app.listen(process.env.PORT || 3333, () => {
   console.log('Server HTTP is running!')
+  console.log(`Accepting connections from ${process.env.CORS_URL}.`)
 })
